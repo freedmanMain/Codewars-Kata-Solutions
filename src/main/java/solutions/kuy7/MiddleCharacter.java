@@ -5,6 +5,6 @@ public class MiddleCharacter {
         if (word.length() % 2 == 0) {
             return word.substring(word.length() / 2 - 1, word.length() / 2 + 1);
         }
-        return word.substring(word.length() / 2, word.length() / 2 + 1);
+        return "" + word.charAt(word.length() / 2);
     }
 }
