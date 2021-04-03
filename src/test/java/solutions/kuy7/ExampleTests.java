@@ -16,6 +16,7 @@ public class ExampleTests {
     @Test
     public void example() {
         assertEquals(new String[]{"a", "b", "c"}, show(Dinglemouse.split("a.b.c")));
+        assertEquals(new String[]{"a", "", "b", "c"}, show(Dinglemouse.split("a..b.c")));
     }
 
 }
